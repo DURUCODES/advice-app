@@ -6,7 +6,7 @@ async function getAdvice (){
      const adviceBody = document.querySelector('.advice')
 
      adviceNumber.textContent=`Advice:${data.slip.id}`
-     adviceBody.textContent= `""${data.slip.advice}`
+     adviceBody.textContent= `"${data.slip.advice}"`
 }
 
 
